@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 180px 180px;
+}
+
+
+            /* NavBar Section
+--------------------------------- */
+
+nav{
+    position: fixed;
+    background-color: #222831;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 96px;
+    font-family: poppins;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    z-index: 9;
+}
+
+nav h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+.bi-list{
+    font-size: 2rem;
+    display: none;
+}
+
+.nav-btns{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+
+
+/*
+
+            Hero Section / Main Body Section   
+------------------------------------
+*/
+
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+
+
+
+.div2 img{
+    width: 400px;
+}
+
+
+#special-text{
+    color: #00ADB5;
+}
+
+
+
+.hero-btn-container {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn-container  button{
+    color: #EEEEEE;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px ;
+
+}
+
+#hire-btn{
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00ADB5;
+
+}
+
+#hire-btn:hover{
+    box-shadow: 0 4px 12px rgba(212, 215, 213, 0.3); /* Adds shadow */
+    transform: translateY(-4px); /* Makes button "pop" up slightly */
+}
+
+#cv-download-btn{
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #393E46;
+}
+
+
+#cv-download-btn:hover {
+    box-shadow: 0 4px 12px rgba(19, 176, 216, 0.3); /* Adds shadow */
+    transform: translateY(-4px); /* Makes button "pop" up slightly */
+}
+
+
+/* 
+-----------------------------------------------
+                About Section   
+
+*/
+                
+/* about section start */
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* about h2 */
+
+.about h2{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+/* about p */
+
+.about p{
+    font-size: 18px;
+    padding-top: 6%;
+}
+
+
+/* 
+        My Recent Work Section
+---------------------------------------------
+*/
+
+.recent_work {
+    padding-top: 80px;
+    position: relative; /* Needed to position the overlay inside */
+    background-image: url('../assets/doodle_items.png'); /* Ensure the correct path */
+    background-size: 40% 40%; /* Adjust this to control the repetition */
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+/* Black overlay effect */
+.recent_work .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 42, 42, 0.642); /* Adjust transparency here */
+    z-index: 1; /* Ensures overlay is above the background */
+}
+
+/* Ensure content is above overlay */
+.work-section-container {
+
+    position: relative;
+    z-index: 2; /* Ensures text and content stay above overlay */
+}
+
+.rc-work-heading h1{
+    font-size: 5rem;
+}
+
+#sp-all{
+    background-color: #00ADB5;
+}
+
+.list-unstyled li{
+    background-color: #393E46;
+    width: auto;
+    height: 3.3rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.657);
+    cursor: pointer;
+}
+
+#li-web-design{
+    min-width: 10rem;
+}
+
+.rc-project-list{
+    width: 100%
+}
+
+.rc-project-list img{
+    width: 360px;
+}
+
+
+
+/* 
+        Contact Section
+---------------------------------------------
+*/
+
+.left{
+    width: 40%;
+}
+
+.left h2{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+.left img{
+    width: 250px;
+    margin-left: 5rem;
+}
+
+
+.right{
+    width: 60%;
+    
+}
+
+
+label{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input{
+    background-color: #393E46;
+    min-width: 280px;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(220, 208, 208);
+}
+
+/* #name{
+    margin-right: 5rem;
+} */
+
+#msg{
+    height: 10em;
+    width: 100%;
+    margin-top: 0.3rem;
+    background-color: #393E46;
+    color: rgb(220, 208, 208);
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+
+button{
+    background-color: #00ADB5;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 0;;
+}
+
+/* Footer Part */
+
+footer{
+    width: 100%;
+    height: 50vh;
+}
+
+#navication a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 1.3rem;
+}
+
+li i{
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+}
+
+
+.social-mediya i{
+    background-color: #393e46;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.policy{
+    width: 80%;
+}

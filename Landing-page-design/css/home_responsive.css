@@ -1,0 +1,208 @@
+
+/* This css making for responsiveness */
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 1100px) {
+    .div1 h1{
+        font-size: 4rem;
+    }
+
+    .div2 img{
+        width: 300px;
+    }
+
+    .rc-work-heading h1{
+        font-size: 4rem;        
+    }
+
+    .rc-project-list{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:1000px){
+
+    .hero-section{
+        padding: 100px 100px;
+    }
+
+    .div1 h1{
+        font-size: 3rem;
+    }
+
+    
+    .div2 img{
+        width: 200px;
+    }   
+    
+    #hire-btn{
+        width: 180px;
+    }
+    
+    #about-h2{
+        font-size: 3rem;
+    }
+
+    .about p{
+        font-size: 1rem;
+    }
+
+    .about-section{
+        padding: 50px 50px;
+    }
+
+    .imgs {
+        width: 100%;
+    }
+
+    .rc-work-heading h1{
+        font-size: 3rem;        
+    }
+
+    .recent_work{
+        padding: 100px 100px;
+    }
+
+    .contact-section{
+        padding: 100px 100px;
+    }
+
+    .left{
+        width: 100%;
+    }
+    
+    .left h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .div1{
+        padding: 0;
+        padding-bottom: 100px;
+    }
+    .hero-section{
+        padding: 170px 70px;
+    }
+
+    nav{
+
+        padding: 30px 20px;
+    }
+
+    #hire-btn{
+        width: 10rem;
+        height: 70px;
+
+    }
+    #cv-download-btn{
+        width: 10rem;
+        height: 70px;
+    }
+
+    
+
+    .about-h2{
+        padding: 50px 50px;
+    }
+
+    .recent_work{
+        padding: 150px 10px;
+    }
+
+
+
+    h1,h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+
+    .rc-project-list{
+        overflow-x: scroll;
+
+    }
+
+    .rc-project-list img{
+        width: 200px;
+    }
+
+    .re-togle-btn-list{
+        overflow-x: scroll;
+    }
+
+    .contact-section{
+        padding: 80px 0px;
+    }
+
+    .left h2{
+        font-size: 3rem;
+    }
+    
+
+}
+
+@media screen and (max-width:550px){
+
+    .nav-btns{
+        display: none;
+    }
+
+    .bi-list{
+        display: inline;
+    }
+
+
+    .hero-section{
+        padding-bottom: 50px;
+    }
+
+
+    #about-h2{
+        font-size: 3rem;
+    }
+
+    .about p{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .imgs img{
+        padding-bottom: 4rem;
+    }
+
+    .rc-work-heading h1{
+        font-size: 2rem;
+        margin-bottom: 3rem;        
+    }
+
+    .list-unstyled{
+        margin-bottom: 3rem;
+    }
+
+    .contact-section{
+        padding: 40px 10px;
+    }
+
+    .left h2{
+        font-size: 2rem;
+    }
+
+    .navication-list{
+        flex-direction: column;
+    }    
+    .social-mediya-list li i{
+        font-size: 0.9rem;
+    }
+
+}
